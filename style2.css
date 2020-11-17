@@ -1,0 +1,144 @@
+
+.items{
+    float:left;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.img_items{
+    float:right;
+}
+.img_items img{
+    height: 550px;
+    width: 1000px;
+    position: relative;
+}
+
+ol {
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    display: inline-block;
+  }
+
+.rectangle-list a{
+    position: relative;
+    display: block;
+    padding: .1em .4em .4em .4em;
+    *padding: .4em;
+    margin: .5em 0 .5em 2.5em;
+    color: #525151;
+    text-decoration: none;
+    transition: all .3s ease-out;
+  }
+
+  .rectangle-list a:hover{
+    color: #000;
+  }
+
+  .rectangle-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    border: 1px solid #000;
+    height: 1.2em;
+    width: 1.2em;
+    line-height: 1.2em;
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: bold;
+  }
+
+  .rectangle-list a:hover:before{
+      color: #fff;
+      background-color: #000;
+      font-weight: 900;
+  }
+
+  
+
+
+  .rectangle-list a:after{
+    position: absolute;
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+  }
+  
+  /* ------------------ */
+
+  
+  .box{
+      border: 2px solid #000;
+      display: inline-block;
+      padding: 1px;
+      height: 18px;
+      width: 18px;
+      line-height: 18px;
+      text-align: center;
+      margin: 5px;
+      color: #000;
+  }
+
+
+  /* ----------------------------- */
+
+  #point_one{
+      position: absolute;
+      top: 16%;
+      left: 66%;
+  }
+  #point_two{
+    position: absolute;
+    top: 35%;
+    left: 57%;
+}
+#point_three{
+    position: absolute;
+    top: 35%;
+    left: 71.5%;
+}
+#point_four{
+    position: absolute;
+    top: 50%;
+    left: 82%;
+}
+#point_five{
+    position: absolute;
+    top: 50%;
+    left:45%;
+}
+#point_six{
+    position: absolute;
+    top:65.5%;
+    left: 62%;
+}
+#point_seven{
+    position: absolute;
+    top: 80%;
+    left: 58%;
+}
+#point_eight{
+    position: absolute;
+    top: 82%;
+    left: 45%;
+}
+#point_nine{
+    position: absolute;
+    top: 63%;
+    left: 47%;
+}
+#point_ten{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
